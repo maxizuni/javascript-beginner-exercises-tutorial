@@ -1,12 +1,12 @@
 //fix this function:
 function startCounting() {
-	let counter = 100;
-	while (counter <= 100) {
-		counter--;
-		console.log(counter);
-	}
+    let counter = 100;
+    while (counter >= 0) {
+        console.log(counter);
+        counter--;
+    }
 
-	return counter;
+    return counter;
 }
 
 startCounting();
